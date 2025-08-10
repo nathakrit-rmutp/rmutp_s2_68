@@ -3,6 +3,6 @@
 Nathakrit(Big)
 
 ## Using it
-'''bash
+```bash
 cp env.simple .env
-'''
+```
