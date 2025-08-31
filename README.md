@@ -9,6 +9,7 @@ docker compose -f db.yml up -d
 ```
 
 ## Prisma
+##  First name
 ```bash
 npx prisma generate
 npx prisma db push
