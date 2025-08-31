@@ -1,6 +1,6 @@
 # Python Prisma
 
-Nathakrit(Big)
+Prawee Wongsa
 
 ## Using it
 ```bash
@@ -9,8 +9,12 @@ docker compose -f db.yml up -d
 ```
 
 ## Prisma
-##  First name
+### First time
 ```bash
 npx prisma generate
 npx prisma db push
+```
+### Operation
+```bash
+npx prisma studio
 ```
