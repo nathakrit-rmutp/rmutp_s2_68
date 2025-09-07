@@ -1,0 +1,17 @@
+# REST API
+
+### Get All Profiles
+### curl http://localhost:3000/profile
+GET http://localhost:5555/profile
+
+### Create New Profile
+### curl -X POST http://localhost:3000/profile
+POST http://localhost:5555/profile
+Content-Type: application/json
+
+{
+    "username": "demo",
+    "password": "1234",
+    "mobile": "0999999999",
+    "cardId": "1234567890123"
+}
