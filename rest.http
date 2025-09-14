@@ -17,13 +17,19 @@ Content-Type: application/json
 }
 
 ### Get some profile by id
-GET http://localhost:3000/profile/86af47c7-b9b1-4859-b64b-3e05d9852c55
+GET http://localhost:3000/profile/7645b518-749d-4c18-a2e3-93eb3a8d3a49xyz
 
 ### Login
 POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "username": "demo7",
+    "username": "demo5",
     "password": "1234"
 }
+
+### Encode
+POST http://localhost:3000/encode
+
+### Decode
+POST http://localhost:3000/decode
