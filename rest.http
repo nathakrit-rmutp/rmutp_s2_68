@@ -33,3 +33,24 @@ POST http://localhost:3000/encode
 
 ### Decode
 POST http://localhost:3000/decode
+
+
+### Encode (เหมือน POST /profile แต่ไม่บันทึก DB)
+POST http://localhost:3000/encode
+Content-Type: application/json
+
+{
+  "username": "alice",
+  "password": "P@ssw0rd",
+  "mobile": "0891234567"
+}
+
+
+
+### GET /profile/:id
+GET http://localhost:3000/profile/534b102b-d347-48bb-9c00-f2227bdaee8d
+
+### /decode/:id -> ต้องให้ผลเหมือน GET /profile/:id
+GET http://localhost:3000/decode/534b102b-d347-48bb-9c00-f2227bdaee8d
+
+
